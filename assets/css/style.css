@@ -113,7 +113,7 @@ border: 1px solid #F4901C;
 	height:70px;
 	}
 .navbar-default .navbar-brand{
-	font-family: 'Lobster Two', cursive;
+	font-family: 'Montserrat', sans-serif;
 	color:#fff;
 	font-size: 28px;
 	}	
@@ -128,7 +128,7 @@ color: #fff;
 	color:#fff;
 	}
 .navbar-default{ 	
-	background:#b40f02;
+	background: black;
 	}
 .navbar-default .navbar-brand {
   font-weight: 600;
@@ -144,6 +144,7 @@ color: #fff;
 .navbar-default .navbar-nav > .active > a:focus {
   color: #fff;
   background-color: transparent;
+  font-family: 'Montserrat', sans-serif;
 }
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{color: #B9B9B9;}
 .navbar-default .navbar-toggle { border-color: transparent }
@@ -214,7 +215,7 @@ padding: 60px 0;
 #home {
   padding: 0;
   color: #fff;
-  background-image: url(../img/cover/home.jpg);
+  background-image: url(/vape_img/smoke_shop.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -232,14 +233,13 @@ padding: 60px 0;
 #product {
   background-color: #fff;
   border-bottom: solid 1px #e7e7e7;
-     background-image: url(../img/cover/sv-bg.jpg);
 }
 .product-icon{ 
 border-radius: 129px; 
 width: 180px;
 height: 180px;
 margin: 0px auto;
-display: inline-block;
+display: flex;
 overflow: hidden;}
 .product-icon i{
 	font-size:3em;
