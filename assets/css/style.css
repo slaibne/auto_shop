@@ -229,19 +229,19 @@ padding: 60px 0;
   margin-top: 20px;
   margin-bottom: 0;
 }
-#services {
+#product {
   background-color: #fff;
   border-bottom: solid 1px #e7e7e7;
      background-image: url(../img/cover/sv-bg.jpg);
 }
-.service-icon{ 
+.product-icon{ 
 border-radius: 129px; 
 width: 180px;
 height: 180px;
 margin: 0px auto;
 display: inline-block;
 overflow: hidden;}
-.service-icon i{
+.product-icon i{
 	font-size:3em;
 	color:#28A09F;
 	}
