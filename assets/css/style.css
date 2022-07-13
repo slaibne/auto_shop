@@ -475,6 +475,14 @@ line-height: 50px;
 /**
 **** Form styles ****
 **/
+.co-lg-5 {
+  visibility: visible;
+}
+
+.co-lg-7 {
+  visibility: visible;
+}
+
 .form.contact {
 	padding:45px 0 15px 0;
 	margin:0;
