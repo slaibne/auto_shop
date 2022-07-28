@@ -11,7 +11,7 @@
 if (isset($_POST['submit'])) {
 
     // EDIT THE FOLLOWING TWO LINES:
-    $submit_to = "you@yourdomain.com";
+    $submit_to = "ivy.hou330@icloud.com";
     $submit_subject = "New form submissions";
 
     function problem($error)
@@ -29,8 +29,9 @@ if (isset($_POST['submit'])) {
         !isset($_POST['contactEmail']) ||
         !isset($_POST['conntactSubject']) ||
         !isset($_POST['contactMessage'])
-    ) {
-        problem('We're sorry, but there appears to be a problem with the form you submitted.');
+    ) 
+    {
+        problem ('Sorry, but there appears to be a problem with the form you submitted.');
     }
 
     $contactName = $_POST['contactName']; // required
