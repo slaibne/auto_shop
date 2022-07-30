@@ -177,7 +177,7 @@ margin-top: 19%;
 }
 .heroText h2 {
 border: none;
-color: #FFF;
+color:#fff;
 text-transform: uppercase;
 line-height: 80px;
 padding-bottom: 0;
@@ -403,7 +403,7 @@ line-height: 50px;
      padding:35px 0 !important;
 }
 #contact {
-  background: url(../img/cover/contact.jpg);
+  background: #fff;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;   
@@ -435,42 +435,7 @@ line-height: 50px;
 #footer .social li .dribbble:hover,
 #footer .social li .dribbble:focus { color: #ea4c89 }
 #footer .copyright { margin-bottom: 0 }
-/*priceTable*/
-/*Price Table*/	
-.panel-danger>.panel-heading {
-    color: #FFFFFF;
-    background-color: #ac180d;
-    border-color: #9E9E9E;
-}
 
-.price {
-    font-size: 4em;
-}
-
-.price-cents {
-    vertical-align: super;
-    font-size: 50%;
-}
-
-.price-month {
-    font-size: 35%;
-    font-style: italic;
-}
-
-.panel {
-    -webkit-transition-property: scale;
-    -webkit-transition-duration: 0.2s;
-    -webkit-transition-timing-function: ease-in-out;
-    transition: all 0.2s ease-in-out;
-}
-
-.panel:hover {
-    -moz-box-shadow: 0 0 10px rgba(0,0,0,.5);
-    -webkit-box-shadow: 0 0 10px rgba(0,0,0,.5);
-    box-shadow: 0 0 10px rgba(0,0,0,.5);
-    -webkit-transform: scale(1.05);
-    -moz-transform: scale(1.05);
-}
 
 /**
 **** Form styles ****
@@ -589,10 +554,10 @@ line-height: 50px;
 	border-color:#f5b075 !important;
 }
 
-.form.contact .input-group button.submit {
-	width:100%;
+.contact .button button.num {
+  width:100%;
 	height:66px;
-	background:#FF7F00;
+	background-color: #2a3940;
 	border:0;
 	font-family:"Roboto", Arial, sans-serif;
 	color:#fff;
@@ -601,31 +566,60 @@ line-height: 50px;
 	font-weight:300;
 }
 
-.form.contact .input-group button.submit:hover {
-	background:#FF7F00;
+.contact .button button.num:hover {
+	background-color: #2a3940;
 }
 
-.form.contact #message_sent {
-	height:100%;
-	width:100%;
-	position:absolute;
-	top:0;
-	z-index:100000;
-	background:#6ebff3;
-	width:100%;
-	display:none;
+.contact .button button.add:hover {
+	background-color: #2a3940;
 }
 
-.form.contact #message_sent i.fa {
-	font-size:120px;
-	position:relative;
-	text-align:center;
-	line-height:0;
-	top:50%;
-	margin:auto;
-	vertical-align:middle;
+.contact .button button.add {
+  width:100%;
+	height:66px;
+	background-color: #2a3940;
+	border:0;
+	font-family:"Roboto", Arial, sans-serif;
 	color:#fff;
-	display:none;
+	font-size:18px;
+	outline:none;
+	font-weight:300;
+}
+
+.contact address.number {
+  font-family: "Roboto", Arial, sans-serif;
+  color: black;
+  font-size: 16px;
+}
+
+.contact .address address.location {
+  font-family: "Roboto", Arial, sans-serif;
+  color: black;
+  font-size: 16px;
+}
+
+.contact .number {
+  padding-top: 15%;
+}
+
+.contact .address .location {
+  padding-top: 15%;
+}
+
+.parent {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.container .parent .head {
+  padding-bottom: 10%;
+  color: #000;
+}
+
+.time .hrs {
+  font-family: "Roboto", Arial, sans-serif;
+  color: black;
+  font-size: 16px;
 }
 
 .form.contact #message_sent p {
@@ -672,6 +666,8 @@ line-height: 50px;
 .form.contact .input-group.tight input.lg {
 	width:100%;
 }
+
+
 /* Responsive style */
 @media screen and (max-width: 1024px) { 
   #testimonials .carousel-control { display: block }
