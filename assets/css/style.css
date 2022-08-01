@@ -341,13 +341,13 @@ line-height: 50px;
 #footer .social li .dribbble:focus { color: #ea4c89 }
 
 .contact .button button.num {
-  width:100%;
+  width:75%;
 	height:66px;
 	background-color: #2a3940;
 	border:0;
 	font-family:"Roboto", Arial, sans-serif;
 	color:#fff;
-	font-size:18px;
+	font-size:14px;
 	outline:none;
 	font-weight:300;
 }
@@ -361,13 +361,13 @@ line-height: 50px;
 }
 
 .contact .button button.add {
-  width:100%;
+  width:75%;
 	height:66px;
 	background-color: #2a3940;
 	border:0;
 	font-family:"Roboto", Arial, sans-serif;
 	color:#fff;
-	font-size:18px;
+	font-size:14px;
 	outline:none;
 	font-weight:300;
 }
@@ -395,6 +395,7 @@ line-height: 50px;
 .parent {
   display: flex;
   justify-content: space-evenly;
+  overflow: hidden;
 }
 
 .container .parent .head {
@@ -407,6 +408,98 @@ line-height: 50px;
   color: black;
   font-size: 16px;
 }
+
+.popup {
+  display: none;
+  position: fixed;
+  top: 50%; 
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 999;
+}
+
+.contentBox {
+  position: relative;
+  width: 600px;
+  height: 400px;
+  background: #fff;
+  border-radius: 20px;
+  display: flex;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.contentBox .imgBX {
+  position: relative;
+  width: 300px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* adds circular backdrop to .imgBX */
+
+/* .contentBox .imgBX::before {
+  content: '';
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  background: #e7ffe0;
+  border-radius: 50%;
+} */
+
+.contentBox .imgBX img {
+  position: relative;
+  max-width: 250px;
+}
+
+.contentBox .contentT {
+  position: relative;
+  width: 300px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentBox .contentT h1 {
+  color: #333;
+  line-height: 1rem;
+  font-weight: 300;
+  font-size: 2em; 
+  margin: auto;
+}  
+
+/* !: font weight n size not working */
+
+.contentBox .contentT h2 {
+  font-size: 3em;
+  color: #ff4d54;
+}
+
+.contentBox .contentT sup {
+  position: relative;
+  display: contents;
+
+}
+
+
+#close {
+  display: block;
+    margin:  0 0 20px auto;
+    background-color: transparent;
+    font-size: 30px;
+    color: gray;
+    background: transparent;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  
+}
+
 
 /* .map {
   display: flex;
@@ -436,3 +529,5 @@ padding: 2px 15px;
     .heroText h2{font-size: 40px; line-height: 40px;}
     .heroText h2 strong{font-size: 25px;}
 }
+
+
